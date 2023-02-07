@@ -52,7 +52,7 @@ plt.show()
 
 def resample_img(itk_image, out_spacing=[2.0, 2.0, 2.0]):
     ''' This function resamples images to 2-mm isotropic voxels.
-      
+    
         Parameters:
             itk_image -- Image in simpleitk format, not a numpy array
             out_spacing -- Space representation of each voxel
@@ -118,4 +118,4 @@ btr.inputs.out_file = 'ADNI2new2.nii'
 btr.cmdline
 res = btr.run()
     # return res
- 
+
